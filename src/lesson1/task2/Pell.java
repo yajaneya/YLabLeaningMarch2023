@@ -6,7 +6,9 @@ public class Pell {
     public static void main(String[] args) throws Exception{
         try (Scanner scanner = new Scanner(System.in)){
             int n = scanner.nextInt();
-            System.out.println(calc(n));
+            if (n >= 0 && n <=30) {
+                System.out.println(calc(n));
+            }
         }
     }
 
